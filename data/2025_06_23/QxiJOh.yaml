@@ -21,7 +21,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - us-v2ray-7q3r9hvn
+      - ♻️ us-v2ray-7q3r9hvn
       - v2ray-q3ius0iq
   - name: ♻️ 自动选择
     type: url-test
