@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2025-09-13 17:44:00
+#  创建时间：2025-09-13 21:35:43
 #  模版：v2rayse默认模版
-#  节点数量：32
+#  节点数量：2
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,263 +13,53 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vless","name":"v2ray-q3ius0iq","server":"v2ray.tw-travel.online","port":13538,"uuid":"84a91a76-1d66-45a8-8065-ed7fb7666a11","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-f9my82g4","server":"v2ray.tw-travel.online","port":13538,"uuid":"7b026e61-2582-4777-b130-531bca9dc199","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-t246siak","server":"v2ray.tw-travel.online","port":13538,"uuid":"05697304-28b6-4077-8039-bad28d5a732e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-wt918lfx","server":"v2ray.tw-travel.online","port":13538,"uuid":"c7abd789-9e4f-482f-b4df-03426e459bcf","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-em0624t6","server":"v2ray.tw-travel.online","port":13538,"uuid":"38a115c0-41de-464f-8ea2-d0cc6efe1f98","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-bfhpc9mx","server":"v2ray.tw-travel.online","port":13538,"uuid":"35973b6e-bc90-4df2-bb7b-b6b8d3a10f33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-eiu53fn2","server":"v2ray.tw-travel.online","port":13538,"uuid":"0d9516fa-f8a6-4183-9955-786345e3cbea","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-uinmw0e9","server":"v2ray.tw-travel.online","port":13538,"uuid":"a69f7579-37ad-439e-9fc5-268e5b65c34b","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-tee0yyqn","server":"v2ray.tw-travel.online","port":13538,"uuid":"c3675393-eee0-482c-8ac5-6e89738dc967","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-bk8cq1x8","server":"v2ray.tw-travel.online","port":13538,"uuid":"5646a55a-1772-4a13-8442-7715e4b0860e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-ihh4fitw","server":"v2ray.tw-travel.online","port":13538,"uuid":"fa5649e4-0c5c-4873-9b87-0d1b0c646fee","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-qhiu30zl","server":"v2ray.tw-travel.online","port":13538,"uuid":"049d85e7-c2d7-43b4-87ea-134b91f093e7","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-gs02546g","server":"v2ray.tw-travel.online","port":13538,"uuid":"7b7227f3-9443-45b8-9d48-07b5d7028624","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-gqa30tgv","server":"v2ray.tw-travel.online","port":13538,"uuid":"a5db56d9-82ba-4cff-916f-cda4536ff94c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-imh124rx","server":"v2ray.tw-travel.online","port":13538,"uuid":"8b684663-c59a-401c-8973-81757686ed2f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-gr5tihjr","server":"v2ray.tw-travel.online","port":13538,"uuid":"9d004fae-f3df-4ab4-b178-5ce5ff1d74b2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-3by6le67","server":"v2ray.tw-travel.online","port":13538,"uuid":"0e6c0e8e-0dc2-4c3b-bcc4-668c37d6f120","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-px6o48p0","server":"v2ray.tw-travel.online","port":13538,"uuid":"15c591a1-4db9-4b5c-a23a-4d8e60936ac5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-fjjgh2bv","server":"v2ray.tw-travel.online","port":13538,"uuid":"0a463bc5-fdbd-47a1-be54-902de9a16dd4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-b8bxo0rl","server":"v2ray.tw-travel.online","port":13538,"uuid":"751b2272-7cf1-4d26-af02-5649b43da12b","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-dtomqyns","server":"v2ray.tw-travel.online","port":13538,"uuid":"7792848d-259b-4a00-b93f-091d075923d1","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-85fljr4j","server":"v2ray.tw-travel.online","port":13538,"uuid":"d432a368-fb34-416c-af4d-ba187777bdba","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-tzzsublv","server":"v2ray.tw-travel.online","port":13538,"uuid":"931ffdc3-4570-4041-919f-5967c855dd43","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-boukiy8w","server":"v2ray.tw-travel.online","port":13538,"uuid":"574a35b8-7b94-4526-9914-7661d833642d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-k65dfztq","server":"v2ray.tw-travel.online","port":13538,"uuid":"dd253b75-a031-416d-815a-c1433aee1a7e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-m1qkfut1","server":"v2ray.tw-travel.online","port":13538,"uuid":"39d22bd5-ae60-4c71-94eb-4a3672ac9fbf","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-dj25fa20","server":"v2ray.tw-travel.online","port":13538,"uuid":"eebceca2-b236-49f1-b3c0-a784ea7da5a8","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-oxe36b8p","server":"v2ray.tw-travel.online","port":13538,"uuid":"1a1da794-6b2d-45d7-ada2-556c50213e47","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-2fcd6gpf","server":"v2ray.tw-travel.online","port":13538,"uuid":"bb73a134-9067-4046-8a85-b58c64ebd1d6","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-n2cxd3a8","server":"v2ray.tw-travel.online","port":13538,"uuid":"894bca4c-9465-4d18-8a51-50e0dbe50914","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-1nx02w1c","server":"v2ray.tw-travel.online","port":13538,"uuid":"501e4784-a59e-4e73-beb7-831cbbe4a213","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"type":"vless","name":"v2ray-paxuv5ic","server":"v2ray.tw-travel.online","port":13538,"uuid":"0049f058-3415-4749-992d-eb01d2d02a3e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
+  - {"type":"vless","name":"reality-t8djcz77","server":"us.tw-travel.online","port":17352,"uuid":"8a0458cc-2424-4e06-987e-7103bbe1a4fc","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision-udp443","servername":"icloud.com","tls":false,"udp":true}
+  - {"type":"vless","name":"v2ray-ukm9bek5","server":"us.tw-travel.online","port":37535,"uuid":"8dd37067-5222-49d1-a592-24fcca721617","skip-cert-verify":true,"network":"tcp","tls":true,"udp":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - v2ray-q3ius0iq
-      - v2ray-f9my82g4
-      - v2ray-t246siak
-      - v2ray-wt918lfx
-      - v2ray-em0624t6
-      - v2ray-bfhpc9mx
-      - v2ray-eiu53fn2
-      - v2ray-uinmw0e9
-      - v2ray-tee0yyqn
-      - v2ray-bk8cq1x8
-      - v2ray-ihh4fitw
-      - v2ray-qhiu30zl
-      - v2ray-gs02546g
-      - v2ray-gqa30tgv
-      - v2ray-imh124rx
-      - v2ray-gr5tihjr
-      - v2ray-3by6le67
-      - v2ray-px6o48p0
-      - v2ray-fjjgh2bv
-      - v2ray-b8bxo0rl
-      - v2ray-dtomqyns
-      - v2ray-85fljr4j
-      - v2ray-tzzsublv
-      - v2ray-boukiy8w
-      - v2ray-k65dfztq
-      - v2ray-m1qkfut1
-      - v2ray-dj25fa20
-      - v2ray-oxe36b8p
-      - v2ray-2fcd6gpf
-      - v2ray-n2cxd3a8
-      - v2ray-1nx02w1c
-      - v2ray-paxuv5ic
+      - reality-t8djcz77
+      - v2ray-ukm9bek5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - v2ray-q3ius0iq
-      - v2ray-f9my82g4
-      - v2ray-t246siak
-      - v2ray-wt918lfx
-      - v2ray-em0624t6
-      - v2ray-bfhpc9mx
-      - v2ray-eiu53fn2
-      - v2ray-uinmw0e9
-      - v2ray-tee0yyqn
-      - v2ray-bk8cq1x8
-      - v2ray-ihh4fitw
-      - v2ray-qhiu30zl
-      - v2ray-gs02546g
-      - v2ray-gqa30tgv
-      - v2ray-imh124rx
-      - v2ray-gr5tihjr
-      - v2ray-3by6le67
-      - v2ray-px6o48p0
-      - v2ray-fjjgh2bv
-      - v2ray-b8bxo0rl
-      - v2ray-dtomqyns
-      - v2ray-85fljr4j
-      - v2ray-tzzsublv
-      - v2ray-boukiy8w
-      - v2ray-k65dfztq
-      - v2ray-m1qkfut1
-      - v2ray-dj25fa20
-      - v2ray-oxe36b8p
-      - v2ray-2fcd6gpf
-      - v2ray-n2cxd3a8
-      - v2ray-1nx02w1c
-      - v2ray-paxuv5ic
+      - reality-t8djcz77
+      - v2ray-ukm9bek5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2ray-q3ius0iq
-      - v2ray-f9my82g4
-      - v2ray-t246siak
-      - v2ray-wt918lfx
-      - v2ray-em0624t6
-      - v2ray-bfhpc9mx
-      - v2ray-eiu53fn2
-      - v2ray-uinmw0e9
-      - v2ray-tee0yyqn
-      - v2ray-bk8cq1x8
-      - v2ray-ihh4fitw
-      - v2ray-qhiu30zl
-      - v2ray-gs02546g
-      - v2ray-gqa30tgv
-      - v2ray-imh124rx
-      - v2ray-gr5tihjr
-      - v2ray-3by6le67
-      - v2ray-px6o48p0
-      - v2ray-fjjgh2bv
-      - v2ray-b8bxo0rl
-      - v2ray-dtomqyns
-      - v2ray-85fljr4j
-      - v2ray-tzzsublv
-      - v2ray-boukiy8w
-      - v2ray-k65dfztq
-      - v2ray-m1qkfut1
-      - v2ray-dj25fa20
-      - v2ray-oxe36b8p
-      - v2ray-2fcd6gpf
-      - v2ray-n2cxd3a8
-      - v2ray-1nx02w1c
-      - v2ray-paxuv5ic
+      - reality-t8djcz77
+      - v2ray-ukm9bek5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - v2ray-q3ius0iq
-      - v2ray-f9my82g4
-      - v2ray-t246siak
-      - v2ray-wt918lfx
-      - v2ray-em0624t6
-      - v2ray-bfhpc9mx
-      - v2ray-eiu53fn2
-      - v2ray-uinmw0e9
-      - v2ray-tee0yyqn
-      - v2ray-bk8cq1x8
-      - v2ray-ihh4fitw
-      - v2ray-qhiu30zl
-      - v2ray-gs02546g
-      - v2ray-gqa30tgv
-      - v2ray-imh124rx
-      - v2ray-gr5tihjr
-      - v2ray-3by6le67
-      - v2ray-px6o48p0
-      - v2ray-fjjgh2bv
-      - v2ray-b8bxo0rl
-      - v2ray-dtomqyns
-      - v2ray-85fljr4j
-      - v2ray-tzzsublv
-      - v2ray-boukiy8w
-      - v2ray-k65dfztq
-      - v2ray-m1qkfut1
-      - v2ray-dj25fa20
-      - v2ray-oxe36b8p
-      - v2ray-2fcd6gpf
-      - v2ray-n2cxd3a8
-      - v2ray-1nx02w1c
-      - v2ray-paxuv5ic
+      - reality-t8djcz77
+      - v2ray-ukm9bek5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - v2ray-q3ius0iq
-      - v2ray-f9my82g4
-      - v2ray-t246siak
-      - v2ray-wt918lfx
-      - v2ray-em0624t6
-      - v2ray-bfhpc9mx
-      - v2ray-eiu53fn2
-      - v2ray-uinmw0e9
-      - v2ray-tee0yyqn
-      - v2ray-bk8cq1x8
-      - v2ray-ihh4fitw
-      - v2ray-qhiu30zl
-      - v2ray-gs02546g
-      - v2ray-gqa30tgv
-      - v2ray-imh124rx
-      - v2ray-gr5tihjr
-      - v2ray-3by6le67
-      - v2ray-px6o48p0
-      - v2ray-fjjgh2bv
-      - v2ray-b8bxo0rl
-      - v2ray-dtomqyns
-      - v2ray-85fljr4j
-      - v2ray-tzzsublv
-      - v2ray-boukiy8w
-      - v2ray-k65dfztq
-      - v2ray-m1qkfut1
-      - v2ray-dj25fa20
-      - v2ray-oxe36b8p
-      - v2ray-2fcd6gpf
-      - v2ray-n2cxd3a8
-      - v2ray-1nx02w1c
-      - v2ray-paxuv5ic
+      - reality-t8djcz77
+      - v2ray-ukm9bek5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - v2ray-q3ius0iq
-      - v2ray-f9my82g4
-      - v2ray-t246siak
-      - v2ray-wt918lfx
-      - v2ray-em0624t6
-      - v2ray-bfhpc9mx
-      - v2ray-eiu53fn2
-      - v2ray-uinmw0e9
-      - v2ray-tee0yyqn
-      - v2ray-bk8cq1x8
-      - v2ray-ihh4fitw
-      - v2ray-qhiu30zl
-      - v2ray-gs02546g
-      - v2ray-gqa30tgv
-      - v2ray-imh124rx
-      - v2ray-gr5tihjr
-      - v2ray-3by6le67
-      - v2ray-px6o48p0
-      - v2ray-fjjgh2bv
-      - v2ray-b8bxo0rl
-      - v2ray-dtomqyns
-      - v2ray-85fljr4j
-      - v2ray-tzzsublv
-      - v2ray-boukiy8w
-      - v2ray-k65dfztq
-      - v2ray-m1qkfut1
-      - v2ray-dj25fa20
-      - v2ray-oxe36b8p
-      - v2ray-2fcd6gpf
-      - v2ray-n2cxd3a8
-      - v2ray-1nx02w1c
-      - v2ray-paxuv5ic
+      - reality-t8djcz77
+      - v2ray-ukm9bek5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -292,38 +82,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2ray-q3ius0iq
-      - v2ray-f9my82g4
-      - v2ray-t246siak
-      - v2ray-wt918lfx
-      - v2ray-em0624t6
-      - v2ray-bfhpc9mx
-      - v2ray-eiu53fn2
-      - v2ray-uinmw0e9
-      - v2ray-tee0yyqn
-      - v2ray-bk8cq1x8
-      - v2ray-ihh4fitw
-      - v2ray-qhiu30zl
-      - v2ray-gs02546g
-      - v2ray-gqa30tgv
-      - v2ray-imh124rx
-      - v2ray-gr5tihjr
-      - v2ray-3by6le67
-      - v2ray-px6o48p0
-      - v2ray-fjjgh2bv
-      - v2ray-b8bxo0rl
-      - v2ray-dtomqyns
-      - v2ray-85fljr4j
-      - v2ray-tzzsublv
-      - v2ray-boukiy8w
-      - v2ray-k65dfztq
-      - v2ray-m1qkfut1
-      - v2ray-dj25fa20
-      - v2ray-oxe36b8p
-      - v2ray-2fcd6gpf
-      - v2ray-n2cxd3a8
-      - v2ray-1nx02w1c
-      - v2ray-paxuv5ic
+      - reality-t8djcz77
+      - v2ray-ukm9bek5
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
