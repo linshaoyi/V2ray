@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2025-09-13 21:35:43
+#  创建时间：2025-09-13 22:01:32
 #  模版：v2rayse默认模版
-#  节点数量：2
+#  节点数量：12
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -14,7 +14,17 @@ log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
   - {"type":"vless","name":"reality-t8djcz77","server":"us.tw-travel.online","port":17352,"uuid":"8a0458cc-2424-4e06-987e-7103bbe1a4fc","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision-udp443","servername":"icloud.com","tls":false,"udp":true}
+  - {"type":"vless","name":"reality-0j8mmaf0","server":"us.tw-travel.online","port":17352,"uuid":"6e7f019b-5ad6-4079-ae27-7ecc6091317c","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision-udp443","servername":"icloud.com","tls":false,"udp":true}
+  - {"type":"vless","name":"reality-rzqvaue6","server":"us.tw-travel.online","port":17352,"uuid":"b46d18dd-17ae-4cd5-bdc0-12d5c4e9c831","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision-udp443","servername":"icloud.com","tls":false,"udp":true}
+  - {"type":"vless","name":"reality-wi7rhcly","server":"us.tw-travel.online","port":17352,"uuid":"fedb4cc8-cd3b-4504-9fc4-0ecc4f2445e5","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision-udp443","servername":"icloud.com","tls":false,"udp":true}
+  - {"type":"vless","name":"reality-523mv13i","server":"us.tw-travel.online","port":17352,"uuid":"c5bb2553-64cf-47fb-8f5c-59b85de4f519","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision-udp443","servername":"icloud.com","tls":false,"udp":true}
+  - {"type":"vless","name":"reality-ftnanx0z","server":"us.tw-travel.online","port":17352,"uuid":"0fd1e199-034b-49c1-9b00-eb0d4c882348","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision-udp443","servername":"icloud.com","tls":false,"udp":true}
   - {"type":"vless","name":"v2ray-ukm9bek5","server":"us.tw-travel.online","port":37535,"uuid":"8dd37067-5222-49d1-a592-24fcca721617","skip-cert-verify":true,"network":"tcp","tls":true,"udp":true}
+  - {"type":"vless","name":"v2ray-oowbmx39","server":"us.tw-travel.online","port":37535,"uuid":"d4c9b52f-0647-48db-b94c-1c4b709a92be","skip-cert-verify":true,"network":"tcp","tls":true,"udp":true}
+  - {"type":"vless","name":"v2ray-zu44a22t","server":"us.tw-travel.online","port":37535,"uuid":"b915e857-2351-462c-88af-20aff199e3ec","skip-cert-verify":true,"network":"tcp","tls":true,"udp":true}
+  - {"type":"vless","name":"v2ray-6jw62k0v","server":"us.tw-travel.online","port":37535,"uuid":"468e70aa-e4c6-47af-a67d-233ee4240b35","skip-cert-verify":true,"network":"tcp","tls":true,"udp":true}
+  - {"type":"vless","name":"v2ray-b1nej1gd","server":"us.tw-travel.online","port":37535,"uuid":"d48aa079-27ac-4b7f-a20c-314ae29d308c","skip-cert-verify":true,"network":"tcp","tls":true,"udp":true}
+  - {"type":"vless","name":"v2ray-vo1bvel5","server":"us.tw-travel.online","port":37535,"uuid":"5633bbd2-74c0-427e-bce1-6b3a875491cd","skip-cert-verify":true,"network":"tcp","tls":true,"udp":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -22,7 +32,17 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - reality-t8djcz77
+      - reality-0j8mmaf0
+      - reality-rzqvaue6
+      - reality-wi7rhcly
+      - reality-523mv13i
+      - reality-ftnanx0z
       - v2ray-ukm9bek5
+      - v2ray-oowbmx39
+      - v2ray-zu44a22t
+      - v2ray-6jw62k0v
+      - v2ray-b1nej1gd
+      - v2ray-vo1bvel5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -30,7 +50,17 @@ proxy-groups:
     tolerance: 50
     proxies:
       - reality-t8djcz77
+      - reality-0j8mmaf0
+      - reality-rzqvaue6
+      - reality-wi7rhcly
+      - reality-523mv13i
+      - reality-ftnanx0z
       - v2ray-ukm9bek5
+      - v2ray-oowbmx39
+      - v2ray-zu44a22t
+      - v2ray-6jw62k0v
+      - v2ray-b1nej1gd
+      - v2ray-vo1bvel5
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -38,28 +68,68 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - reality-t8djcz77
+      - reality-0j8mmaf0
+      - reality-rzqvaue6
+      - reality-wi7rhcly
+      - reality-523mv13i
+      - reality-ftnanx0z
       - v2ray-ukm9bek5
+      - v2ray-oowbmx39
+      - v2ray-zu44a22t
+      - v2ray-6jw62k0v
+      - v2ray-b1nej1gd
+      - v2ray-vo1bvel5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - reality-t8djcz77
+      - reality-0j8mmaf0
+      - reality-rzqvaue6
+      - reality-wi7rhcly
+      - reality-523mv13i
+      - reality-ftnanx0z
       - v2ray-ukm9bek5
+      - v2ray-oowbmx39
+      - v2ray-zu44a22t
+      - v2ray-6jw62k0v
+      - v2ray-b1nej1gd
+      - v2ray-vo1bvel5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - reality-t8djcz77
+      - reality-0j8mmaf0
+      - reality-rzqvaue6
+      - reality-wi7rhcly
+      - reality-523mv13i
+      - reality-ftnanx0z
       - v2ray-ukm9bek5
+      - v2ray-oowbmx39
+      - v2ray-zu44a22t
+      - v2ray-6jw62k0v
+      - v2ray-b1nej1gd
+      - v2ray-vo1bvel5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - reality-t8djcz77
+      - reality-0j8mmaf0
+      - reality-rzqvaue6
+      - reality-wi7rhcly
+      - reality-523mv13i
+      - reality-ftnanx0z
       - v2ray-ukm9bek5
+      - v2ray-oowbmx39
+      - v2ray-zu44a22t
+      - v2ray-6jw62k0v
+      - v2ray-b1nej1gd
+      - v2ray-vo1bvel5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -83,7 +153,17 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - reality-t8djcz77
+      - reality-0j8mmaf0
+      - reality-rzqvaue6
+      - reality-wi7rhcly
+      - reality-523mv13i
+      - reality-ftnanx0z
       - v2ray-ukm9bek5
+      - v2ray-oowbmx39
+      - v2ray-zu44a22t
+      - v2ray-6jw62k0v
+      - v2ray-b1nej1gd
+      - v2ray-vo1bvel5
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
